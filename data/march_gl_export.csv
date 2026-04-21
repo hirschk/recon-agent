@@ -1,0 +1,53 @@
+id,date,amount,account_code,account_name,description,vendor,reference_number,status
+GL-0001,2024-03-01,24000.0,6010,Software & SaaS,Salesforce CRM — annual renewal,Salesforce,SF-2024-001,pending
+GL-0002,2024-03-01,1800.0,6010,Software & SaaS,HubSpot Marketing Hub — monthly,HubSpot,HB-2024-202,pending
+GL-0003,2024-03-03,1200.0,6010,Software & SaaS,Slack Business+ — monthly,Slack,SL-2024-031,pending
+GL-0004,2024-03-04,800.0,6010,Software & SaaS,Figma Organization — monthly seats,Figma,FIG-2024-031,pending
+GL-0005,2024-03-05,400.0,6010,Software & SaaS,Linear Team — monthly,Linear,LIN-2024-031,pending
+GL-0006,2024-03-06,320.0,6010,Software & SaaS,Notion Team — monthly,Notion,NOT-2024-031,pending
+GL-0007,2024-03-08,600.0,6010,Software & SaaS,Zoom Business — monthly,Zoom,ZM-2024-031,pending
+GL-0008,2024-03-10,240.0,6010,Software & SaaS,Loom Business — monthly,Loom,LM-2024-031,pending
+GL-0009,2024-03-12,1400.0,6010,Software & SaaS,Intercom Starter — monthly,Intercom,IC-2024-031,pending
+GL-0010,2024-03-15,420.0,6010,Software & SaaS,GitHub Enterprise — monthly,GitHub,GH-2024-031,pending
+GL-0011,2024-03-18,900.0,6010,Software & SaaS,Retool Team — monthly,Retool,RT-2024-031,pending
+GL-0012,2024-03-20,350.0,6010,Software & SaaS,PostHog Scale — monthly,PostHog,PH-2024-031,pending
+GL-0013,2024-03-22,800.0,6010,Software & SaaS,PagerDuty Professional — monthly,PagerDuty,PD-2024-031,pending
+GL-0014,2024-03-01,8200.0,6020,Cloud Infrastructure,"AWS — EC2, S3, RDS March usage",Amazon Web Services,AWS-2024-031-A,pending
+GL-0015,2024-03-03,3400.0,6020,Cloud Infrastructure,"GCP — BigQuery, Cloud Run March",Google Cloud,GCP-2024-031,pending
+GL-0016,2024-03-04,2800.0,6020,Cloud Infrastructure,Datadog — infrastructure monitoring,Datadog,DD-2024-031,pending
+GL-0017,2024-03-08,400.0,6020,Cloud Infrastructure,Cloudflare Pro — CDN & security,Cloudflare,CF-2024-031,pending
+GL-0018,2024-03-12,3600.0,6020,Cloud Infrastructure,Snowflake — data warehouse March compute,Snowflake,SNW-2024-031,pending
+GL-0019,2024-03-15,480.0,6020,Cloud Infrastructure,Vercel Pro — frontend hosting,Vercel,VCL-2024-031,pending
+GL-0020,2024-03-20,1200.0,6020,Cloud Infrastructure,MongoDB Atlas M30 — March usage,MongoDB,MDB-2024-031,pending
+GL-0021,2024-03-25,640.0,6010,Software & SaaS,Asana Business — monthly seats,Asana,ASN-2024-031,pending
+GL-0022,2024-03-01,8000.0,6030,Contractor & Consulting,John Smith — backend engineering retainer,John Smith Consulting,JSC-2024-031,pending
+GL-0023,2024-03-15,4200.0,6020,Cloud Infrastructure,"AWS — reserved instances, credits pending",Amazon Web Services,AWS-2024-031-B,pending
+GL-0024,2024-03-08,12000.0,6030,Contractor & Consulting,Acme Dev LLC — product sprint February,Acme Dev LLC,ADL-2024-031,pending
+GL-0025,2024-03-15,6400.0,6030,Contractor & Consulting,DataSync Consulting — data migration work,DataSync Consulting,DSC-2024-031,pending
+GL-0026,2024-03-20,4200.0,6030,Contractor & Consulting,Growth Advisors LLC — go-to-market strategy,Growth Advisors LLC,GA-2024-031,pending
+GL-0027,2024-03-01,15000.0,6040,Marketing & Advertising,Google Ads — paid search March budget,Google Ads,GAD-2024-031,pending
+GL-0028,2024-03-05,8000.0,6040,Marketing & Advertising,LinkedIn Ads — demand generation campaign,LinkedIn,LI-2024-031,pending
+GL-0029,2024-03-08,1200.0,6040,Marketing & Advertising,Clearbit — enrichment API usage,Clearbit,CB-2024-031,pending
+GL-0030,2024-03-12,800.0,6040,Marketing & Advertising,Semrush Business — SEO tooling,Semrush,SEM-2024-031,pending
+GL-0031,2024-03-20,2400.0,6010,Software & SaaS,"HubSpot — seat expansion Q1, mid-month invoice",HubSpot,HB-2291,pending
+GL-0032,2024-03-01,45000.0,6050,Payroll Processing,Rippling — payroll run March 1 cycle,Rippling,RIP-2024-MC1,pending
+GL-0033,2024-03-15,45200.0,6050,Payroll Processing,Rippling — payroll run March 15 cycle,Rippling,RIP-2024-MC2,pending
+GL-0034,2024-03-05,12400.0,6050,Payroll Processing,Rippling — employer payroll taxes Q1,Rippling,RIP-2024-031,pending
+GL-0035,2024-03-07,12250.0,6050,Payroll Processing,Rippling — employer payroll taxes Q1 ACH,Rippling,ACH-887341,pending
+GL-0036,2024-03-03,2400.0,6060,Legal & Compliance,Ironclad — contract lifecycle platform,Ironclad,IC-2024-031,pending
+GL-0037,2024-03-08,18000.0,6060,Legal & Compliance,Wilson Sonsini — Series B due diligence,Wilson Sonsini,WS-2024-0312,pending
+GL-0038,2024-03-15,12500.0,6060,Legal & Compliance,Goodwin Law — IP protection & patents,Goodwin Law,GL-2024-0315,pending
+GL-0039,2024-03-20,600.0,6060,Legal & Compliance,Carta — cap table management,Carta,CRT-2024-031,pending
+GL-0040,2024-03-10,3200.0,6070,Travel & Expenses,Airbnb — team offsite Tahoe 3 nights,Airbnb,AIR-2024-031,pending
+GL-0041,2024-03-12,4800.0,6070,Travel & Expenses,United Airlines — SF to NYC sales trip (4 pax),United Airlines,UA-2024-0312,pending
+GL-0042,2024-03-18,2100.0,6070,Travel & Expenses,Marriott — sales team NYC accommodation,Marriott,MAR-2024-031,pending
+GL-0043,2024-03-05,5500.0,6030,Contractor & Consulting,Jane Doe — UX design contract March,Jane Doe Freelance,JDF-2024-031,pending
+GL-0044,2024-03-18,2400.0,6040,Marketing & Advertising,Bombora — intent data subscription,Bombora,BB-2024-031,pending
+GL-0045,2024-03-22,3200.0,6020,Cloud Infrastructure,"Datadog — APM add-on, bank payment pending",Datadog,DD-2024-032,pending
+GL-0046,2024-03-25,720.0,6020,Cloud Infrastructure,Vercel Enterprise — add-on seats,Vercel,VCL-2024-032,pending
+GL-0047,2024-03-28,480.0,6010,Software & SaaS,SendGrid — transactional email (cleared bank),SendGrid,SG-2024-031,pending
+GL-0048,2024-03-10,4800.0,6030,Contractor & Consulting,TechContract LLC — milestone 1 of 2,TechContract LLC,TCL-2024-031A,pending
+GL-0049,2024-03-20,4800.0,6030,Contractor & Consulting,TechContract LLC — milestone 2 of 2,TechContract LLC,TCL-2024-031B,pending
+GL-0050,2024-03-19,1847.0,6030,Contractor & Consulting,Unknown ACH debit — no vendor identified,Unknown,ACH-993847,pending
+GL-0051,2024-03-21,2300.0,6040,Marketing & Advertising,ACH debit — vendor ACH details expired,Bombora,ACH-004521,pending
+GL-0052,2024-03-14,-480.0,6010,Software & SaaS,"Figma — prorated refund, seat cancellation",Figma,FIG-CR-2024-031,pending

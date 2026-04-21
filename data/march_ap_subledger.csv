@@ -1,0 +1,47 @@
+id,date,amount,vendor,gl_account,invoice_number,status,reference_number,invoice_url
+AP-0001,2024-03-01,24000.0,Salesforce,6010,INV-GL-0001-M,open,SF-2024-001,https://drive.google.com/file/d/L5soa-RIxVjyxTUrEx5LKBFuHGL4t1JQM/view
+AP-0002,2024-03-01,1800.0,HubSpot,6010,INV-GL-0002-M,open,HB-2024-202,https://drive.google.com/file/d/P56xPd616qPQVmy-bYFZ6HbqcReEEYp5M/view
+AP-0003,2024-03-03,1200.0,Slack,6010,INV-GL-0003-M,open,SL-2024-031,https://drive.google.com/file/d/a36Gri3yV8OEMt7GgqPvb4Zn0O998y9PN/view
+AP-0004,2024-03-04,800.0,Figma,6010,INV-GL-0004-M,open,FIG-2024-031,https://drive.google.com/file/d/owW_9g2uKAZvtXU2SqARBWXepy-vThXTK/view
+AP-0005,2024-03-05,400.0,Linear,6010,INV-GL-0005-M,open,LIN-2024-031,https://drive.google.com/file/d/BuFm7xT64iEa3Pi5tU91ZhGgBzWXqjrjE/view
+AP-0006,2024-03-06,320.0,Notion,6010,INV-GL-0006-M,open,NOT-2024-031,https://drive.google.com/file/d/yMwnvDuIlD9TPf-K58CI_gvVb91CoVLBD/view
+AP-0007,2024-03-08,600.0,Zoom,6010,INV-GL-0007-M,open,ZM-2024-031,https://drive.google.com/file/d/NW3kCxqVFdBx8GCMBq-2ZprdRhwMYF_uA/view
+AP-0008,2024-03-10,240.0,Loom,6010,INV-GL-0008-M,open,LM-2024-031,https://drive.google.com/file/d/zVrKKkOC1qpI0xYcIjaokQAP3eo0ugvrL/view
+AP-0009,2024-03-12,1400.0,Intercom,6010,INV-GL-0009-M,open,IC-2024-031,https://drive.google.com/file/d/1iEdjNkudKlWP7AzDeeLiclU9aPTjOyjL/view
+AP-0010,2024-03-15,420.0,GitHub,6010,INV-GL-0010-M,open,GH-2024-031,https://drive.google.com/file/d/TDtUEgcosrgQk5awwmY_TDSMcnIOVVnfF/view
+AP-0011,2024-03-18,900.0,Retool,6010,INV-GL-0011-M,open,RT-2024-031,https://drive.google.com/file/d/EyzPLaKAOWua8Uoh2BJja4DMSOR-U590A/view
+AP-0012,2024-03-20,350.0,PostHog,6010,INV-GL-0012-M,open,PH-2024-031,https://drive.google.com/file/d/OwSXrRdXIB_sypcoP0qQJ3ZQaefEe-BZM/view
+AP-0013,2024-03-22,800.0,PagerDuty,6010,INV-GL-0013-M,open,PD-2024-031,https://drive.google.com/file/d/QAiAldUDYbsenfrllElSzu073HKPJNz1J/view
+AP-0014,2024-03-01,8200.0,Amazon Web Services,6020,INV-GL-0014-M,open,AWS-2024-031-A,https://drive.google.com/file/d/eP7N6Ey9VDDbrZGmb-qVX-09a7-xW7NIF/view
+AP-0015,2024-03-03,3400.0,Google Cloud,6020,INV-GL-0015-M,open,GCP-2024-031,https://drive.google.com/file/d/D0YprXZT2a4CbiXqSRfdLQ2x_z3a6aqXE/view
+AP-0016,2024-03-04,2800.0,Datadog,6020,INV-GL-0016-M,open,DD-2024-031,https://drive.google.com/file/d/mgm018pw7rIU5u0QEuSOp26T7_JOfvfcO/view
+AP-0017,2024-03-08,400.0,Cloudflare,6020,INV-GL-0017-M,open,CF-2024-031,https://drive.google.com/file/d/EKUYL1YFCbw9zoti1eQc_Et1SBhQZJj4M/view
+AP-0018,2024-03-12,3600.0,Snowflake,6020,INV-GL-0018-M,open,SNW-2024-031,https://drive.google.com/file/d/LCYDGjASF4jzqKRRcVGr8Iyf7oarScprI/view
+AP-0019,2024-03-15,480.0,Vercel,6020,INV-GL-0019-M,open,VCL-2024-031,https://drive.google.com/file/d/B-6IczyJjYXUD65H5bFsVfdsLUWCCJdVA/view
+AP-0020,2024-03-20,1200.0,MongoDB,6020,INV-GL-0020-M,open,MDB-2024-031,https://drive.google.com/file/d/nxHdW_XBL0Fy84orgSvR2aKeY1U_mAr4C/view
+AP-0021,2024-03-25,640.0,Asana,6010,INV-GL-0021-M,open,ASN-2024-031,https://drive.google.com/file/d/lGkjh4PYx9nSzucVRhq27FT9vYpF4_ZtC/view
+AP-0022,2024-03-01,8000.0,John Smith Consulting,6030,INV-GL-0022-M,open,JSC-2024-031,https://drive.google.com/file/d/3KOLHaJKuoa_zpdgCu9gmtK5BV_BFPs_L/view
+AP-0023,2024-03-08,12000.0,Acme Dev LLC,6030,INV-GL-0024-M,open,ADL-2024-031,https://drive.google.com/file/d/Tm-X7BSAx-V7TWnT81Kdz_4Y-Gyra5U9J/view
+AP-0024,2024-03-15,6400.0,DataSync Consulting,6030,INV-GL-0025-M,open,DSC-2024-031,https://drive.google.com/file/d/wGk3BEvzx9euyz79q4y_m1mAfTqEwoZOP/view
+AP-0025,2024-03-20,4200.0,Growth Advisors LLC,6030,INV-GL-0026-M,open,GA-2024-031,https://drive.google.com/file/d/nmg5kHfgRGlK8rC2NGpqoRw0FHwbpuCjO/view
+AP-0026,2024-03-01,15000.0,Google Ads,6040,INV-GL-0027-M,open,GAD-2024-031,https://drive.google.com/file/d/dqnD2K16u31tYF0UuNphvZLAkibzWoTtN/view
+AP-0027,2024-03-05,8000.0,LinkedIn,6040,INV-GL-0028-M,open,LI-2024-031,https://drive.google.com/file/d/Las3Lw0KL7jYXskag2fkBEvJJoJUTvFfE/view
+AP-0028,2024-03-08,1200.0,Clearbit,6040,INV-GL-0029-M,open,CB-2024-031,https://drive.google.com/file/d/J6dX7QyEOW84cevMWIlA5gjofJC5qPcLM/view
+AP-0029,2024-03-12,800.0,Semrush,6040,INV-GL-0030-M,open,SEM-2024-031,https://drive.google.com/file/d/J63fGsjRxj8TdYoFcFqXz1nfoKRj3536I/view
+AP-0030,2024-03-01,45000.0,Rippling,6050,INV-GL-0032-M,open,RIP-2024-MC1,https://drive.google.com/file/d/mygSSN_KkzBTpn9ede9tpqPniMzt4axCK/view
+AP-0031,2024-03-15,45200.0,Rippling,6050,INV-GL-0033-M,open,RIP-2024-MC2,https://drive.google.com/file/d/_iKiVkE8qb8LKUJ7DtCv0f7yfbg8hMz9L/view
+AP-0032,2024-03-03,2400.0,Ironclad,6060,INV-GL-0036-M,open,IC-2024-031,https://drive.google.com/file/d/72qh8B7ilTM_8ClYHfLxrnaKumOsY5HNH/view
+AP-0033,2024-03-08,18000.0,Wilson Sonsini,6060,INV-GL-0037-M,open,WS-2024-0312,https://drive.google.com/file/d/Qhl7lKksgd5nKUgYafKIBzAHbeYNXE1pJ/view
+AP-0034,2024-03-15,12500.0,Goodwin Law,6060,INV-GL-0038-M,open,GL-2024-0315,https://drive.google.com/file/d/F4R0I8Wk36ltoKr_5Eu1GMPlazd1fxRmE/view
+AP-0035,2024-03-20,600.0,Carta,6060,INV-GL-0039-M,open,CRT-2024-031,https://drive.google.com/file/d/Vsb2VRgr5nMHaKK_HTsJ3Udtlwa8Ly-MB/view
+AP-0036,2024-03-10,3200.0,Airbnb,6070,INV-GL-0040-M,open,AIR-2024-031,https://drive.google.com/file/d/26sjdX8_514O5rKDALVh79mF8uwFMKdPP/view
+AP-0037,2024-03-12,4800.0,United Airlines,6070,INV-GL-0041-M,open,UA-2024-0312,https://drive.google.com/file/d/Zf0mRIs_Q0JximuXSN3u5Eo_eUnrWbwLB/view
+AP-0038,2024-03-18,2100.0,Marriott,6070,INV-GL-0042-M,open,MAR-2024-031,https://drive.google.com/file/d/NHUVYgi-GmtATVBPfRwmpMYch7nOaUoKI/view
+AP-0039,2024-03-05,5500.0,Jane Doe Freelance,6030,INV-GL-0043-M,open,JDF-2024-031,https://drive.google.com/file/d/xIHJHEf8mYZOVLomWup1VEqp9ygmoMf0L/view
+AP-0040,2024-03-18,2400.0,Bombora,6040,INV-GL-0044-M,open,BB-2024-031,https://drive.google.com/file/d/AXcrybyD74_KsC5e7Nxb5Scqu2vcFWtiM/view
+AP-0042,2024-03-22,3200.0,Datadog,6020,DD-INV-0422,open,DD-2024-032,https://drive.google.com/file/d/DD39SebxS3OgNvnzK5QxKYLvGOrMTzTiM/view
+AP-0043,2024-03-25,720.0,Vercel,6020,VCL-INV-0425,open,VCL-2024-032,https://drive.google.com/file/d/z9VlpwsziAnD_WrC92K-RqA7qXny5RvsD/view
+AP-0044,2024-03-15,3900.0,Amazon Web Services,6020,AWS-INV-0315-B,open,AWS-2024-031-B,https://drive.google.com/file/d/12yINcjHjA5JS6_Iyuo049bl6zEWt8Gvq/view?usp=sharing
+AP-0045,2024-03-14,2400.0,HubSpot,6010,HB-2291,open,HB-2291,https://drive.google.com/file/d/R5lKgzSXJSzBZA-S7HVsnJRYF49EViu7F/view
+AP-0046,2024-03-01,9600.0,TechContract LLC,6030,TCL-2024-031,open,TCL-2024-031,https://drive.google.com/file/d/d4yZKbshlgz5odRhpRSxLNAZUn10ftMDJ/view
+AP-0048,2024-03-14,-480.0,Figma,6010,FIG-CN-2024-031,open,FIG-CR-2024-031,https://drive.google.com/file/d/HG6kGmiPA-75Q2TZXdkaRLoi9m65eo7oA/view

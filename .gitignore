@@ -1,0 +1,31 @@
+# Environment — never commit real credentials
+.env
+
+# SQLite database (regenerated from fixtures)
+*.db
+*.db-wal
+*.db-shm
+
+# Generated report output (produced at runtime)
+march_recon_report.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

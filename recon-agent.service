@@ -1,0 +1,29 @@
+[Unit]
+Description=SaaS Month-End Close Reconciliation Slack Bot
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/recon-agent
+
+# Load environment variables from .env file
+EnvironmentFile=/root/recon-agent/.env
+
+# Activate virtualenv and start bot
+ExecStart=/root/recon-agent/venv/bin/python main.py
+
+# Restart policy — auto-restart on crash, max 5 restarts in 2 minutes
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=120
+StartLimitBurst=5
+
+# Logging — view with: journalctl -u recon-agent -f
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=recon-agent
+
+[Install]
+WantedBy=multi-user.target
