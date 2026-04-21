@@ -4,6 +4,8 @@ A Slack bot that acts as an AI finance controller for month-end close. Drop a GL
 
 **Demo targets:** Ramp, DualEntry
 
+![Month End Close Agent — System Architecture](docs/architecture.svg)
+
 ---
 
 ## What it does
