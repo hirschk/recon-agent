@@ -2,7 +2,7 @@
 
 A Slack bot that acts as an AI finance controller for month-end close. Drop a GL export CSV into Slack — the agent matches it against the AP subledger, surfaces exceptions with confidence scores and plain English reasoning, catches duplicate payments, requests human approval before posting any entry, and maintains an immutable audit trail of every action.
 
-**Demo targets:** Ramp, DualEntry
+
 
 ![Month End Close Agent — System Architecture](docs/architecture.svg)
 
