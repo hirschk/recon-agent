@@ -330,11 +330,16 @@ duplicate → duplicate                    (flagged for AP review)
 
 ## Matching logic
 
-**Layer 1 (deterministic):** Exact amount match + date within ±3 days + matching reference number OR vendor name. Confidence 1.0. No API call.
+**Layer 1 (deterministic):** Exact amount match (±$0.01) + date within ±3 days + matching reference number OR vendor name (Levenshtein ≤ 2). No API call.
+- GL + AP + bank → `matched`, confidence 1.0
+- GL + AP, no bank yet → `partial`, confidence 0.85
+- GL + bank, no AP invoice → `partial`, confidence 0.80
 
-**Duplicate detection (deterministic):** Same vendor (Levenshtein ≤ 2) + amounts within 5% + same 30-day window + different reference numbers. Runs before Layer 2.
+**Duplicate detection (deterministic):** Same vendor (Levenshtein ≤ 2) + amounts within 2% + within a 5-day window + different reference numbers. Runs on all GL entries before Layer 2; flagged entries skip the LLM. Thresholds are deliberately tight: 2% catches waived fees and rounding (Rippling, 1.2%) but not legitimately different charges (Bombora, 4.2%); 5 days catches same-run payments (Rippling, 2 days apart) but not split milestones (TechContract, 10 days apart).
 
 **Layer 2 (LLM):** Claude analyzes only unmatched entries. Receives: GL entry, AP candidates within 10% amount / 7-day window, full audit trail for the entity. Returns confidence (0–1) + reasoning + recommended action. Never called for clean matches.
+
+**Result on the March demo data (52 GL entries):** 45 resolved by Layer 1 with no LLM call (35 full 3-way matches + 10 partials), 1 duplicate pair caught deterministically (GL-0034 / GL-0035), and 5 entries sent to Claude (GL-0023, GL-0031, GL-0048, GL-0049, GL-0051).
 
 ---
 
