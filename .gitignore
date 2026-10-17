@@ -29,3 +29,6 @@ build/
 .idea/
 *.swp
 *.swo
+
+# Claude Code local settings, skills and worktrees
+.claude/
